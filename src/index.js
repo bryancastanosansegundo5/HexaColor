@@ -64,7 +64,6 @@ const HexaColor = ({ cantidad, handleCopy }) => {
     </div>
   );
 };
-
 const App = () => {
   const [cantidad, setCantidad] = useState(27);
   const [coloresGenerados, setColoresGenerados] = useState([]);
